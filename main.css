@@ -5,16 +5,17 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 50px;
+	padding: 0px;
+	height: 80px;
 }
 header a {
 	float: left;
 	display: block;
+	height: 100%;
 	color: #f2f2f2;
-	padding: 14px 16px;
+	padding: 20px 16px;
 	text-align: center;
 	text-decoration: none;
-	font-family: ;
 }
 header a:hover {
 	background: #ccc;
@@ -23,11 +24,13 @@ header a:hover {
 main {
 	text-align: left;
 }
+
 body {
 	background-color: #85dcb0;
 	padding: 20px;
-	padding-top: 60px;
+	padding-top: 100px;
 	font-family: "Monaco", "Courier New", monospace;
+	font-size: 180%;
 }
 
 img {
@@ -37,7 +40,6 @@ img {
 p {
 	line-height: 1.5;
 	text-align: justify;
-
 }
 
 .hidden {
